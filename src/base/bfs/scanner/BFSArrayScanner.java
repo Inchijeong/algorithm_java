@@ -70,7 +70,7 @@ public class BFSArrayScanner {
 		
 		while(!queue.isEmpty()) {
 			int w = queue.poll(); // 큐에서 정점을 하나 꺼냄
-			for(int i = 1; i < adjArray.length; i++) { // 꺼낸 정점과 인접한 정점 찾기
+			for(int i = 0; i < adjArray.length; i++) { // 꺼낸 정점과 인접한 정점 찾기
 				if(adjArray[w][i] == 1 && visited[i] == false) { // 방문하지 않은 정점이라면
 					visited[i] = true; // 방문 표시
 					queue.offer(i); // 큐에 추가

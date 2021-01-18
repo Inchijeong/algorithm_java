@@ -75,7 +75,7 @@ public class DFSArrayScanner {
 		visited[v] = true; // 정점 방문 표시
 		System.out.print(v + " "); // 정점 출력
 		
-		for(int i = 1; i < adjArray.length; i++) { // 꺼낸 정점과 인접한 정점 찾기
+		for(int i = 0; i < adjArray.length; i++) { // 꺼낸 정점과 인접한 정점 찾기
 			if(adjArray[v][i] == 1 && visited[i] == false) { // 방문하지 않은 정점이라면
 				dfsArrayRecursion(i, adjArray, visited); // 다시 DFS
 			}
@@ -90,7 +90,7 @@ public class DFSArrayScanner {
 		
 		while(!stack.isEmpty()) {
 			int w = stack.pop(); // 스택에서 정점을 하나 꺼냄
-			for(int i = 1; i < adjArray.length; i++) { // 꺼낸 정점과 인접한 정점 찾기
+			for(int i = 0; i < adjArray.length; i++) { // 꺼낸 정점과 인접한 정점 찾기
 				if(adjArray[w][i] == 1 && visited[i] == false) { // 방문하지 않은 정점이라면
 					visited[i] = true; // 방문 표시
 					stack.push(i); // 스택에 추가
