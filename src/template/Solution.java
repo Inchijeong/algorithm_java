@@ -1,4 +1,4 @@
-package base;
+package template;
 
 public class Solution {
 
