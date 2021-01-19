@@ -48,11 +48,11 @@ public class BFSList {
 		adjList[6].add(8);
 
 		System.out.println("BFS("+v+") - 인접리스트 / 큐로 구현");
-		dfsList(0, adjList, visited);
+		bfsList(0, adjList, visited);
 	}	
 	
 	// DFS - 인접리스트 - 큐로 구현
-	public static void dfsList(int v, LinkedList<Integer>[] adjList, boolean[] visited) {
+	public static void bfsList(int v, LinkedList<Integer>[] adjList, boolean[] visited) {
 		Queue<Integer> queue = new LinkedList<Integer>();
 		queue.offer(v);
 		visited[v] = true; // 정점 방문 표시

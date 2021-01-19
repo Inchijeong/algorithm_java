@@ -44,11 +44,11 @@ public class BFSArray {
 		};
 		
 		System.out.println("BFS("+v+") - 인접행렬 / 큐로 구현");
-		dfsArrayStack(v, adjArray, visited);
+		bfsArray(v, adjArray, visited);
 	}
 	
 	// BFS - 인접행렬 / 큐로 구현
-	public static void dfsArrayStack(int v, int[][] adjArray, boolean[] visited) {
+	public static void bfsArray(int v, int[][] adjArray, boolean[] visited) {
 		Queue<Integer> queue = new LinkedList<Integer>();
 		queue.offer(v);
 		visited[v] = true; // 정점 방문 표시
