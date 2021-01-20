@@ -1,6 +1,6 @@
 package programmers.kit.bfs_dfs.targetNumber;
 
-//DFS Recursion 풀이 시도
+//DFS Recursion 풀이
 public class Solution {
 
 	public static void main(String[] args) {
@@ -13,17 +13,19 @@ public class Solution {
 	
 	public static int solution(int[] numbers, int target) {
 		int answer = 0;		
-		answer = dfsR(numbers, -1, 0, target, 0);
+		answer = dfs(numbers, -1, 0, target);
 		
 		return answer;
 	}
 	
-	public static int dfsR(int[] numbers, int idx, int sum, int target, int ans) {
+	public static int dfs(int[] numbers, int idx, int sum, int target) {
 		int length = numbers.length;
 		idx++;
+		
+		int ans = 0;
 		if(idx < length) {
-			ans += dfsR(numbers, idx, sum + numbers[idx], target, ans);
-			ans += dfsR(numbers, idx, sum - numbers[idx], target, ans);
+			ans += dfs(numbers, idx, sum + numbers[idx], target);
+			ans += dfs(numbers, idx, sum - numbers[idx], target);
 			System.out.println("idx: " + idx);
 			System.out.println("cnt " + ans);
 			return ans;
