@@ -1,11 +1,11 @@
-package programmers.kit.dynamicProgramming.expressedByN;
+package programmers.kit.dynamic_programming.expressed_by_n;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
 // DP
-public class Sloution1_2 {
+public class ExpressedByN {
 	public static int solution(int n, int num) {
 		int ans = 0;
 		ArrayList <HashSet<Integer>> list = new ArrayList<>();

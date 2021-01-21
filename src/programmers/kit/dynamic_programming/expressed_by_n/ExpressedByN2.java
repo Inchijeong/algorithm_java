@@ -1,7 +1,7 @@
-package programmers.kit.dynamicProgramming.expressedByN;
+package programmers.kit.dynamic_programming.expressed_by_n;
 
 //DFS
-public class Solution1 {
+public class ExpressedByN2 {
 	
 	static int answer = -1;
 
