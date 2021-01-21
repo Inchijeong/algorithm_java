@@ -1,4 +1,4 @@
-package programmers.kit.bfs_dfs.target_number;
+package programmers.kit.bfs_dfs.q1_target_number;
 
 //DFS Recursion 풀이
 public class TargetNnumberDFS {

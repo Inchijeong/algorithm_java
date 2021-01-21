@@ -1,4 +1,4 @@
-package programmers.kit.bfs_dfs.network;
+package programmers.kit.bfs_dfs.q2_network;
 
 // DFS
 public class NetworkDFS {

@@ -1,4 +1,4 @@
-package programmers.kit.bfs_dfs.target_number;
+package programmers.kit.bfs_dfs.q1_target_number;
 
 import java.util.LinkedList;
 import java.util.Queue;

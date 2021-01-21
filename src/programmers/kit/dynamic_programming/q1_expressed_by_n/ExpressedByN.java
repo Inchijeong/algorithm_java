@@ -1,4 +1,4 @@
-package programmers.kit.dynamic_programming.expressed_by_n;
+package programmers.kit.dynamic_programming.q1_expressed_by_n;
 
 import java.util.ArrayList;
 import java.util.HashSet;
