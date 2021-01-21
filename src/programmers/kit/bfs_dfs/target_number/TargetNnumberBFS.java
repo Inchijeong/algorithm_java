@@ -1,10 +1,10 @@
-package programmers.kit.bfs_dfs.targetNumber;
+package programmers.kit.bfs_dfs.target_number;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 // BFS 풀이
-public class Solution3 {
+public class TargetNnumberBFS {
 
 	public static void main(String[] args) {
 		

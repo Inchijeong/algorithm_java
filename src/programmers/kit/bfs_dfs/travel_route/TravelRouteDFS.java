@@ -1,10 +1,11 @@
-package programmers.kit.bfs_dfs.travelRoute;
+package programmers.kit.bfs_dfs.travel_route;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Solution {
+// DFS
+public class TravelRouteDFS {
 	static boolean[] visited;
 	static ArrayList<String> answers = new ArrayList<>();
 	

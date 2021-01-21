@@ -1,10 +1,10 @@
-package programmers.kit.bfs_dfs.wordConversion;
+package programmers.kit.bfs_dfs.word_conversion;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 // BFS - 타겟에 도달하면 멈추기 위함
-public class Solution {
+public class WordConversion {
 
 	static class Word {
 		int idx;

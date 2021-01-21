@@ -1,6 +1,7 @@
 package programmers.kit.bfs_dfs.network;
 
-public class Solution {
+// DFS
+public class NetworkDFS {
 
 	public static void main(String[] args) {
 		

@@ -1,7 +1,7 @@
-package programmers.kit.bfs_dfs.targetNumber;
+package programmers.kit.bfs_dfs.target_number;
 
 //DFS Recursion 풀이
-public class Solution {
+public class TargetNnumberDFS {
 
 	public static void main(String[] args) {
 		
