@@ -1,4 +1,4 @@
-package programmers.kit.bfs_dfs.q4_word_conversion;
+package programmers.kit.bfs_dfs.q3_word_conversion;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package programmers.kit.bfs_dfs.q3_travel_route;
+package programmers.kit.bfs_dfs.q4_travel_route;
 
 import java.util.ArrayList;
 import java.util.Arrays;
