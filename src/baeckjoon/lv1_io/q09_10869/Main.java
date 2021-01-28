@@ -1,4 +1,4 @@
-package baeckjoon.lv1_io.q9_10869;
+package baeckjoon.lv1_io.q09_10869;
 
 import java.util.Scanner;
 

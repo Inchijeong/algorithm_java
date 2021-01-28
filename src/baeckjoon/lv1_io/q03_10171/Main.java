@@ -1,4 +1,4 @@
-package baeckjoon.lv1_io.q3_10171;
+package baeckjoon.lv1_io.q03_10171;
 
 public class Main {
 	public static void main(String[] args) {
