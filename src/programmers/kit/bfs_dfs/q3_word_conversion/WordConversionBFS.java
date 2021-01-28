@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // BFS - 타겟에 도달하면 멈추기 위함
-public class WordConversion {
+public class WordConversionBFS {
 
 	static class Word {
 		int idx;
