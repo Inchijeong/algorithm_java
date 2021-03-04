@@ -1,4 +1,4 @@
-package hackerrank.dynamicProgramming.theCoinChangeProblem;
+package hacker_rank.dynamic_programming.q1_the_coin_change_problem;
 
 import java.util.ArrayList;
 import java.util.List;
