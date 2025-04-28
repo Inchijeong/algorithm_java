@@ -119,4 +119,15 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# 모든 quiz*.md 파일 무시
+**/quiz*.md
+
+# 모든 Solution_AI.java 파일 무시
+**/Solution_AI.java
+
+# Eclipse 관련 파일 무시
+.project
+.classpath
+.settings/
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,eclipse,java
