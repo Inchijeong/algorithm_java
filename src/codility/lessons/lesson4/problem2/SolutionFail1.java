@@ -5,7 +5,7 @@ import java.util.*;
 // you can write to stdout for debugging purposes, e.g.
 // System.out.println("this is a debug message");
 
-class Solution {
+class SolutionFail1 {
     public int solution(int[] A) {
         // Implement your solution here
         int result = 1;
