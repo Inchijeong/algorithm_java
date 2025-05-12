@@ -2,7 +2,7 @@ package codility.lessons.lesson4.problem3;
 
 import java.util.*;
 
-public class Solution {
+public class SolutionFail1 {
     public int[] solution(int N, int[] A) {
         // Implement your solution here
         int[] result = new int[N];
